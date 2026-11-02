@@ -9,7 +9,7 @@
     <?php 
 $db_server = "localhost";
 $db_user = "root";
-$db_pass = "";
+$db_pass = getenv("db_pass");
 $db_name = "my_database";
 
 $conn = "";
